@@ -4,7 +4,7 @@ $('#id').text('new text');
 
 And wondered why the code wasn't working only to find out the selector was wrong. jQuery.whiny.js attempts
 to solve this problem by altering the jQuery library so the jQuery() method will create a console warning
-if an empty jQuery object returned.
+if an empty jQuery object is returned.
 
 In the above example, if '#id' returned an empty jQuery object you'd see the following console warning:
 
@@ -12,3 +12,6 @@ In the above example, if '#id' returned an empty jQuery object you'd see the fol
 
 
 Note: This is strictly for dev purposes!
+
+
+Additionally, the name of this script was inspired by "whiny nil" from Ruby on Rails.
